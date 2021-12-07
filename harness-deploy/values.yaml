@@ -26,9 +26,9 @@ sename: "<+pipeline.variables.seusername>"
 
 env:
   config:
-    HARNESS_FF_KEY: sdkkey
+    HARNESS_FF_KEY: <+pipeline.variables.ffsdkkeyprod>
     HARNESS_SE:seusername
-    HARNESS_BUILD: <+pipeline.sequenceId>
+    HARNESS_BUILD: <+pipeline.variables.seusername>
   secrets:
     key2: value2
 
