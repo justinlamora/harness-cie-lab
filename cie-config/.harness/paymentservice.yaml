@@ -126,7 +126,7 @@ pipeline:
                                           imagePath: nikpap/payment-service
                                           tag: justinlamora-latest
                   infrastructure:
-                      environmentRef: GKEDEV
+                      environmentRef: GKEdev
                       infrastructureDefinition:
                           type: KubernetesDirect
                           spec:
